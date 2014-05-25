@@ -1,5 +1,6 @@
-letitgo
+생활코딩 for SK플래닛 2기. 
 =======
+사업부 등 비 개발자 매니저 분들의 코딩 기본기를 공부하기 위한 공동 공부 프로젝트 입니다. 
+본 프로젝트에서는 생활코딩의 각 이슈들에서 유일하게 jsfiddle 이 제공되지 않고 있는 jQuery 수업의 예제와 
+Head first jQuery 책에 있는 수업 과제를 하나씩 만들어 보는 것을 목표로 합니다. 
 
-WIKI for the ppl who wanna translate their metadata (include description, tags and etc.) via using mediawiki (php)
-전세계 모든 개발자들에게 도움이 되는 공동 번역 위키를 만들고자 합니다. 
