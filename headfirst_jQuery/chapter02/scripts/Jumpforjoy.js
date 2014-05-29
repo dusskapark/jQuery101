@@ -5,6 +5,5 @@ $(document).ready(function() {
 		var discount_msg = "<p>your discount is "+ discount +"% </p>";
 		alert(discount_msg);
 		$(this).append(discount_msg);
-		$(this).unbind("click");
 	});
 });
