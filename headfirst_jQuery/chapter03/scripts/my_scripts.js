@@ -1,4 +1,13 @@
 $(document).ready(function() {
+	$(".guess_box").hover(function() { 
+		//mouse enter 이벤트 핸들러 입니다. 
+		$(this).addClass("my_hover");
+	},
+	function() { 
+		//mouse reave 이벤트 핸들러 입니다. 
+		$(this).removeClass("my_hover");
+	});
+	
 	$(".guess_box").click( checkForCode ); 
 	function getRandom(num) {
 		var my_num = Math.floor(Math.random()*num);
