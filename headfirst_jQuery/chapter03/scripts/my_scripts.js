@@ -14,10 +14,10 @@ $(document).ready(function() {
 		return my_num;
 	}
 		var hideCode = function () {
-		var numRoad = getRandom(4);
-		$(".guess_box").each(function(index, value) {
-			if (numRoad == index) {
-				$(this).append("<span id='has_discount'>&nbsp;</span>");
+			var numRoad = getRandom(4);
+			$(".guess_box").each(function(index, value) {
+				if (numRoad == index) {
+					$(this).append("<span id='has_discount'>&nbsp;</span>");
 				return false;
 			}
 		});
