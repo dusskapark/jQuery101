@@ -12,4 +12,4 @@ $('#code').keydown(function(e) {
 });
 $('tr').click(function() {
 	$(this).find('.title').toggleClass('checked');
-})
+});
