@@ -6,7 +6,7 @@
     $('.parallax').parallax();
 
     // 사용할 앱의 JavaScript 키를 설정해 주세요.
-    Kakao.init('a230e58b48b10ef26c3ab835c30cb138');
+    Kakao.init('da5134840e84bd4ff5f6d9da1477c3c9');
 
     shareKakao = function () {
             // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
