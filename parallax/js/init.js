@@ -45,13 +45,10 @@
     // 상세 내용을 읽었는지 / 어떤 것을 읽었는지 분석
     $('.collapsible-header').click(function(){
       var header = $(this).text();
-      console.log(header);
       ga('send', 'event', 'description', 'clicked', header);
     })
 
     //스크롤 시 GA코드 보내기
-
-
       var options = [
         {
           selector: '#IAP',
