@@ -18,10 +18,10 @@
                 height: "150px"
               },
               fail: Materialize.toast('카카오톡 링크는 모바일 기기에서만 전송 가능합니다.', 4000, 'rounded'),
-              webLink : {
-                text: "[원스토어]인앱SDK 및 검증정책 업데이트 안내!",
-                url: "http://skpla.net/UpgradeCenter"
-              },
+              // webLink : {
+              //   text: "[원스토어]인앱SDK 및 검증정책 업데이트 안내!",
+              //   url: "http://skpla.net/UpgradeCenter"
+              // },
               webButton: {
                 text: "[원스토어]인앱SDK 및 검증정책 업데이트 안내!",
                 url: "http://dusskapark.github.io/jQuery101/parallax/index.html" // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
