@@ -11,7 +11,7 @@
     shareKakao = function () {
             // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
             Kakao.Link.sendTalkLink({
-              label: "[원스토어] 인앱SDK 및 검증 정책 업데이트 안내! 인앱SDK로 Android 6.0에 완벽 대응하고 업데이트 검증으로 빠르게 출시하세요!",
+              label: "['이 마시멜로는 내꺼야 우적우적'] 인앱SDK로 Android 6.0에 완벽 대응하고 업데이트 검증으로 빠르게 출시하세요!",
               image: {
                 src: "http://dusskapark.github.io/jQuery101/parallax/img/oct-touch-icon-150.png",
                 width: "150px",
@@ -23,7 +23,7 @@
               //   url: "http://skpla.net/UpgradeCenter"
               // },
               webButton: {
-                text: "[원스토어]인앱SDK 및 검증정책 업데이트 안내!",
+                text: "[원스토어]통합개발자센터",
                 url: "http://dusskapark.github.io/jQuery101/parallax/index.html" // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
               }
             });
